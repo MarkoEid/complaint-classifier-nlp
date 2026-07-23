@@ -4,6 +4,16 @@ Automatically classifies financial customer complaints into their correct CFPB c
 
 ---
 
+## 📸 Demo
+
+| Gradio App Interface | Model Predictions & Analysis |
+| :---: | :---: |
+| ![Dashboard Interface 1](<img width="1877" height="906" alt="لقطة الشاشة 2026-07-23 142349" src="https://github.com/user-attachments/assets/6de7481f-f033-4292-8508-b5a5653c1f6f" />
+) | ![Dashboard Interface 2](<img width="1867" height="891" alt="لقطة الشاشة 2026-07-23 142431" src="https://github.com/user-attachments/assets/a32c5b1f-597b-4f46-9231-70ba5ee57389" />
+) |
+
+
+
 ## 📌 Overview
 
 Financial institutions receive large volumes of free-text customer complaints that must be routed to the correct department (**credit reporting**, **debt collection**, **mortgages**, **credit cards**, **retail banking**). Manual triage is slow and inconsistent; this project fully automates that workflow.
