@@ -8,12 +8,9 @@ Automatically classifies financial customer complaints into their correct CFPB c
 
 | Gradio App Interface | Model Predictions & Analysis |
 | :---: | :---: |
-| ![Dashboard Interface 1](<img width="1877" height="906" alt="لقطة الشاشة 2026-07-23 142349" src="https://github.com/user-attachments/assets/6de7481f-f033-4292-8508-b5a5653c1f6f" />
-) | ![Dashboard Interface 2](<img width="1867" height="891" alt="لقطة الشاشة 2026-07-23 142431" src="https://github.com/user-attachments/assets/a32c5b1f-597b-4f46-9231-70ba5ee57389" />
-) |
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8e2739f2-a0d4-46d4-aafe-4711cd687978" alt="Dashboard Interface 3" width="80%"/>
-</p>
+| <img width="1877" height="906" alt="لقطة الشاشة 2026-07-23 142349" src="https://github.com/user-attachments/assets/6de7481f-f033-4292-8508-b5a5653c1f6f" /> | <img width="1867" height="891" alt="لقطة الشاشة 2026-07-23 142431" src="https://github.com/user-attachments/assets/a32c5b1f-597b-4f46-9231-70ba5ee57389" /> |
+
+---
 
 
 ## 📌 Overview
