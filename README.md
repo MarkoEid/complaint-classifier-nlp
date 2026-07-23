@@ -1,4 +1,3 @@
-```markdown
 # AI Customer Complaint Classification System
 
 Automatically classifies financial customer complaints into their correct CFPB category using deep learning—comparing **SimpleRNN**, **LSTM**, and **GRU** (trained from scratch) against a fine-tuned **DistilBERT** transformer, deployed via an interactive Gradio dashboard.
@@ -55,7 +54,7 @@ Trained on the [Consumer Complaints Dataset for NLP](https://www.kaggle.com/data
 | :--- | :--- |
 | `consumer_complaint_classification.ipynb` | Training notebook designed for **Kaggle GPU** execution. |
 | `deployment_notebook.ipynb` | Loads training artifacts to serve the Gradio app directly on Kaggle. |
-| `requirements.txt` | Pinned dependencies for local deployment  |
+| `requirements.txt` | Pinned dependencies for local deployment (Python 3.10). |
 
 ---
 
@@ -71,23 +70,17 @@ Trained on the [Consumer Complaints Dataset for NLP](https://www.kaggle.com/data
 
 #### Option A: Run Locally (Recommended for Permanent App)
 ```bash
-conda create -n complaint-app -y
+conda create -n complaint-app python=3.10 -y
 conda activate complaint-app
 pip install -r requirements.txt
-
 ```
-
 Place the `saved_models/` and `artifacts/` directories in the root folder, then launch:
-
 ```bash
 python app.py
-
 ```
-
-*Access the app locally at: `http://127.0.0.1:7860*`
+*Access the app locally at: `http://127.0.0.1:7860`*
 
 #### Option B: Deploy on Kaggle (Quick Temporary Demo)
-
 1. Upload `deployment_notebook.ipynb` as a separate notebook.
 2. Add your training notebook as an input source (**Add Input ➔ Notebook Output Files**).
 3. Update `ARTIFACTS_ROOT` to your mounted path and run all cells to generate a public `gradio.live` link.
@@ -107,7 +100,3 @@ python app.py
 * **Deep Learning:** TensorFlow / Keras, PyTorch, HuggingFace Transformers
 * **NLP & Metrics:** NLTK, scikit-learn
 * **Interface & Deployment:** Gradio
-
-```
-
-```
